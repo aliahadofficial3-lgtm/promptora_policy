@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Privacy Policy - Promptora AI</title>
+    <style>
+        :root {
+            --bg-color: #0d0f17;
+            --surface-color: #171b26;
+            --surface-border: #262c3d;
+            --text-primary: #f0f3fa;
+            --text-secondary: #9aa2b5;
+            --accent-color: #6366f1;
+            --accent-gradient: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #ec4899 100%);
+            --badge-bg: rgba(99, 102, 241, 0.15);
+            --badge-text: #a5b4fc;
+            --card-radius: 16px;
+        }
+
+        @media (prefers-color-scheme: light) {
+            :root {
+                --bg-color: #f8fafc;
+                --surface-color: #ffffff;
+                --surface-border: #e2e8f0;
+                --text-primary: #0f172a;
+                --text-secondary: #64748b;
+                --accent-color: #4f46e5;
+                --accent-gradient: linear-gradient(135deg, #4f46e5 0%, #7c3aed 50%, #db2777 100%);
+                --badge-bg: rgba(79, 70, 229, 0.1);
+                --badge-text: #4f46e5;
+                --card-radius: 16px;
+            }
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            line-height: 1.6;
+            padding: 20px 16px 40px;
+            font-size: 15px;
+        }
+
+        .header {
+            text-align: center;
+            padding: 24px 16px 20px;
+            margin-bottom: 24px;
+            background: var(--surface-color);
+            border: 1px solid var(--surface-border);
+            border-radius: var(--card-radius);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+        }
+
+        .app-badge {
+            display: inline-block;
+            background: var(--badge-bg);
+            color: var(--badge-text);
+            font-size: 12px;
+            font-weight: 700;
+            padding: 4px 12px;
+            border-radius: 20px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 12px;
+        }
+
+        h1 {
+            font-size: 24px;
+            font-weight: 800;
+            margin-bottom: 8px;
+            background: var(--accent-gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .meta-info {
+            font-size: 13px;
+            color: var(--text-secondary);
+        }
+
+        .section {
+            background: var(--surface-color);
+            border: 1px solid var(--surface-border);
+            border-radius: var(--card-radius);
+            padding: 20px 18px;
+            margin-bottom: 16px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.03);
+        }
+
+        h2 {
+            font-size: 17px;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .section-icon {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 28px;
+            height: 28px;
+            border-radius: 8px;
+            background: var(--badge-bg);
+            color: var(--badge-text);
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        p {
+            color: var(--text-secondary);
+            margin-bottom: 12px;
+        }
+
+        p:last-child {
+            margin-bottom: 0;
+        }
+
+        ul {
+            list-style: none;
+            padding-left: 0;
+            margin-top: 8px;
+            margin-bottom: 12px;
+        }
+
+        li {
+            position: relative;
+            padding-left: 20px;
+            margin-bottom: 8px;
+            color: var(--text-secondary);
+            font-size: 14px;
+        }
+
+        li::before {
+            content: "•";
+            position: absolute;
+            left: 6px;
+            color: var(--accent-color);
+            font-weight: bold;
+        }
+
+        a {
+            color: var(--accent-color);
+            text-decoration: underline;
+            word-break: break-all;
+        }
+
+        .highlight-box {
+            background: var(--badge-bg);
+            border-left: 4px solid var(--accent-color);
+            padding: 12px 16px;
+            border-radius: 8px;
+            margin-top: 12px;
+            font-size: 14px;
+            color: var(--text-primary);
+        }
+
+        .contact-card {
+            text-align: center;
+            background: var(--surface-color);
+            border: 1px dashed var(--surface-border);
+            border-radius: var(--card-radius);
+            padding: 24px 16px;
+            margin-top: 24px;
+        }
+
+        .email-btn {
+            display: inline-block;
+            background: var(--accent-gradient);
+            color: #ffffff;
+            font-weight: 600;
+            text-decoration: none;
+            padding: 10px 24px;
+            border-radius: 25px;
+            margin-top: 12px;
+            box-shadow: 0 4px 15px rgba(99, 102, 241, 0.3);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <div class="app-badge">Official Policy</div>
+        <h1>Privacy Policy</h1>
+        <div class="meta-info">
+            <strong>App:</strong> Promptora AI<br>
+            <strong>Package Name:</strong> com.promptoraahad.app<br>
+            <strong>Last Updated:</strong> October 2026
+        </div>
+    </div>
+
+    <div class="section">
+        <h2><span class="section-icon">1</span> Overview & Commitment</h2>
+        <p>Welcome to <strong>Promptora AI</strong>. We value and respect your privacy. This Privacy Policy describes how Promptora AI operates, what data is processed, and our strict local-first privacy commitments.</p>
+        <div class="highlight-box">
+            <strong>Key Summary:</strong> Promptora AI is designed with an offline-first architecture. We do not require registration or accounts, and we do not collect, harvest, store, or sell any personal identifying information (PII).
+        </div>
+    </div>
+
+    <div class="section">
+        <h2><span class="section-icon">2</span> Zero Personal Data Collection</h2>
+        <p>When you use Promptora AI, we do not require you to provide any personal data:</p>
+        <ul>
+            <li>No sign-up, email, login, or social authentication required.</li>
+            <li>No access to your contacts, photos, microphone, camera, or personal files.</li>
+            <li>No biometric, health, financial, or payment information collected.</li>
+            <li>No continuous background tracking or GPS location access.</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2><span class="section-icon">3</span> Local Device Storage</h2>
+        <p>All user interactions within Promptora AI remain strictly on your device:</p>
+        <ul>
+            <li><strong>Favorites & Bookmarks:</strong> Saved prompts are stored locally in an encrypted on-device SQLite / Room database.</li>
+            <li><strong>Recent Searches:</strong> Search queries are saved locally to assist with auto-suggestions and can be wiped instantly from the Settings screen.</li>
+            <li><strong>Theme Preferences:</strong> Dark, Light, or System theme choices are saved locally in device shared preferences.</li>
+        </ul>
+        <p>This data never leaves your device and is never uploaded to any remote servers. Uninstalling the app or clearing app storage deletes this data permanently.</p>
+    </div>
+
+    <div class="section">
+        <h2><span class="section-icon">4</span> Advertising & Google AdMob</h2>
+        <p>Promptora AI is supported by advertisements provided by <strong>Google AdMob</strong> (Google LLC). Advertisements help keep this prompt library completely free for all creators.</p>
+        <p>To serve ads, the Google Mobile Ads SDK may automatically process certain device telemetry in accordance with Google's Privacy Policy:</p>
+        <ul>
+            <li><strong>Device Identifiers:</strong> Google Advertising ID (AAID) for ad attribution and frequency capping.</li>
+            <li><strong>Approximate Location:</strong> Coarse location inferred from IP address for regional ad relevance.</li>
+            <li><strong>Diagnostic & Performance Data:</strong> Crash logs and ad load latency to ensure stability.</li>
+        </ul>
+        <p>For more details on how Google processes ad data, please review:</p>
+        <p><a href="https://policies.google.com/privacy">Google Privacy Policy</a> and <a href="https://policies.google.com/technologies/ads">How Google uses information from sites or apps</a>.</p>
+        <div class="highlight-box">
+            <strong>Your Privacy Choices:</strong> You can reset or delete your Advertising ID at any time via Android Settings &rarr; Google &rarr; Ads, or manage consent preferences directly in Promptora AI under <em>Settings &rarr; Ad Privacy & Consent Choices</em>.
+        </div>
+    </div>
+
+    <div class="section">
+        <h2><span class="section-icon">5</span> Permissions Used</h2>
+        <p>Promptora AI only requests permissions strictly required for its core functionality:</p>
+        <ul>
+            <li><strong>INTERNET & ACCESS_NETWORK_STATE:</strong> Required by Google AdMob to load advertisements and to retrieve public preview image assets when online.</li>
+            <li><strong>VIBRATE:</strong> Used solely to provide subtle, tactile haptic feedback when copying prompts or toggling favorites. Can be disabled in app settings.</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2><span class="section-icon">6</span> Clipboard & External AI Tools</h2>
+        <p>When you tap "Copy Prompt", Promptora AI places the selected prompt text into your system clipboard for your convenience. Promptora AI does not monitor, transmit, or retain clipboard contents. You maintain complete control over where you paste your prompts (e.g. Nano Banana, Midjourney, DALL-E, Stable Diffusion).</p>
+    </div>
+
+    <div class="section">
+        <h2><span class="section-icon">7</span> Children's Privacy</h2>
+        <p>Promptora AI complies with COPPA and Google Play Developer Program policies. The application is not directed to children under the age of 13, and we do not knowingly collect any personal information from children.</p>
+    </div>
+
+    <div class="section">
+        <h2><span class="section-icon">8</span> Security & Data Retention</h2>
+        <p>Because Promptora AI does not operate external user database servers, your user data cannot be breached from our end. All local data is isolated within Android's sandboxed application container and managed by the Android operating system.</p>
+    </div>
+
+    <div class="section">
+        <h2><span class="section-icon">9</span> Policy Updates</h2>
+        <p>We may update this Privacy Policy from time to time to reflect changes in our practices or applicable legal regulations. Any changes will be updated directly within this embedded policy file inside the app.</p>
+    </div>
+
+    <div class="contact-card">
+        <h2>Contact & Support</h2>
+        <p>If you have any questions, feedback, or concerns regarding this Privacy Policy or your data, please contact us:</p>
+        <p><strong>Email:</strong> <a href="mailto:aliahadofficial3@gmail.com">aliahadofficial3@gmail.com</a></p>
+        <p><strong>Developer:</strong> Ali Ahad</p>
+        <a class="email-btn" href="mailto:aliahadofficial3@gmail.com?subject=Promptora%20AI%20Privacy%20Inquiry">Send Email</a>
+    </div>
+
+</body>
+</html>
